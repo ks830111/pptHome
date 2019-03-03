@@ -1,0 +1,52 @@
+
+/* 중간 크기 이상 ~ pc */
+@media (min-width: 768px){
+  .works-image_box .click{
+    padding-top: 20%;
+  }
+  .main-visual_logo{
+    font-size: 4em;
+    top: 50%;
+  }
+  .footer_box1 h1{
+    font-size: 3em;
+  }
+  #main_footer{
+    padding-top: 80px;
+  }
+}
+
+/* 모바일(~테블릿) */
+@media (max-width: 767px){
+  
+  .works-image_box .click{
+    padding-top: 25%;
+  }
+  .main-visual_logo{
+    font-size: 2em;
+    top: 55%;
+  }
+  .footer_box1 h1{
+    font-size: 2em;
+  }
+  #main_footer{
+    padding-top: 130px;
+  }
+  .main-visual_logo .logo_span5{
+    display: block;
+  }
+  .logo_txt{
+    font-size: 0.5em;
+  }
+  .aboutMe_1{
+    display: none;
+  }
+  .aboutMe_2, .aboutMe_3, .aboutMe_4, .aboutMe_5{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .aboutMe_2{
+    margin-top: 20px;
+  }
+}
