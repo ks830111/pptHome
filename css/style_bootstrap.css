@@ -673,7 +673,9 @@ html, body{
     padding-top: 25px;
 }
 #main_footer .sns{
+    /* border: 1px solid red; */
     display: inline-block;
+    padding-left: 3px;
 }
 #main_footer .sns img{
     border: 1px solid #fff;
